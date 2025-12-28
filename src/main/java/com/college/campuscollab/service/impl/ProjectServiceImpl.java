@@ -8,6 +8,7 @@ import com.college.campuscollab.entity.User;
 import com.college.campuscollab.repository.ProjectLikeRepository;
 import com.college.campuscollab.repository.ProjectRepository;
 import com.college.campuscollab.service.ProjectService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -18,6 +19,9 @@ import java.util.stream.Collectors;
 
 @Service
 public class ProjectServiceImpl implements ProjectService {
+
+    @Value("${app.base-url:http://localhost:8085}")
+    private String baseUrl;
 
     private final ProjectRepository projectRepository;
     private final FileStorageServiceImpl fileStorageService;
