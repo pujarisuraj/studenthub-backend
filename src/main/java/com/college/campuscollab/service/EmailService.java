@@ -16,7 +16,8 @@ public class EmailService {
      * Send password reset email
      */
     public void sendPasswordResetEmail(String toEmail, String resetToken) {
-        String resetUrl = "http://localhost:3000/#/reset-password?token=" + resetToken;
+        // https://studenthub-teal.vercel.app/#/reset-password
+        String resetUrl = "https://studenthub-teal.vercel.app/#/reset-password?token=" + resetToken;
 
         // Console logging for debugging
         System.out.println("=====================================");
@@ -48,7 +49,7 @@ public class EmailService {
         System.out.println("=====================================");
         System.out.println("Total Recipients: " + users.size());
         System.out.println("Subject: " + subject);
-        System.out.println("From: studenthub.noreply@gmail.com");
+        System.out.println("From: studenthub.noreplys@gmail.com");
         System.out.println("=====================================\n");
 
         for (User user : users) {
