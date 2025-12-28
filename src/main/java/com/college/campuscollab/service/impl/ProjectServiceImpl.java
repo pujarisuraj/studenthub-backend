@@ -180,7 +180,8 @@ public class ProjectServiceImpl implements ProjectService {
                     }
                 }
                 // Create full URL: http://localhost:8085/api/files/projects/filename.jpg
-                String url = "http://localhost:8085/api/files/projects/" + cleanFilename;
+                // String url = "http://localhost:8085/api/files/projects/" + cleanFilename;
+                String url = baseUrl + "/api/files/projects/" + cleanFilename;
                 screenshotUrls.add(url);
             }
         }
