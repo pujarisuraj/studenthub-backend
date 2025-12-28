@@ -15,7 +15,7 @@ public class SendGridEmailService {
     @Value("${sendgrid.api.key}")
     private String sendGridApiKey;
 
-    @Value("${sendgrid.from.email:studenthub.noreply@gmail.com}")
+    @Value("${sendgrid.from.email:studenthub.noreplys@gmail.com}")
     private String fromEmail;
 
     @Value("${sendgrid.from.name:StudentHub}")
