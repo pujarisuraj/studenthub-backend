@@ -16,9 +16,10 @@ public class CorsConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         // Allow frontend origins
-        configuration.setAllowedOrigins(Arrays.asList(
-                "http://localhost:3000",
-                "http://localhost:3001"));
+       configuration.setAllowedOrigins(Arrays.asList(
+            "http://localhost:3000",
+            "http://localhost:3001",
+            "https://studenthub-teal.vercel.app"));
 
         // Allow all HTTP methods
         configuration.setAllowedMethods(Arrays.asList(
