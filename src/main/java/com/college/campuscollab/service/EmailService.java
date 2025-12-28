@@ -154,11 +154,11 @@ public class EmailService {
                 "                    <!-- Header -->" +
                 "                    <tr>" +
                 "                        <td style='background-color: #f0f4f8; padding: 50px 30px; text-align: center;'>" +
-                "                            <a href='https://pujarisuraj.github.io/studenthub/' style='text-decoration: none; display: inline-block;'>" +
+                "                            <a href='https://studenthub-teal.vercel.app/' style='text-decoration: none; display: inline-block;'>" +
                 "                                <div style='font-size: 110px; margin-bottom: 15px;'>🎓</div>" +
                 "                            </a>" +
                 "                            <h1 style='color: #2d3e73; margin: 0 0 8px; font-size: 36px; font-weight: 700; letter-spacing: 0.5px;'>StudentHub</h1>" +
-                "                            <a href='https://pujarisuraj.github.io/studenthub/' style='text-decoration: none;'>" +
+                "                            <a href='https://studenthub-teal.vercel.app/' style='text-decoration: none;'>" +
                 "                                <p style='color: #8b95a5; margin: 0; font-size: 13px; letter-spacing: 3px; font-weight: 500;'>ACADEMIC PORTAL</p>" +
                 "                            </a>" +
                 "                        </td>" +
