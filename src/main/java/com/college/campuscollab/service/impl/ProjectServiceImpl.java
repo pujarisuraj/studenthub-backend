@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
 @Service
 public class ProjectServiceImpl implements ProjectService {
 
-    @Value("${app.base-url:http://localhost:8085}")
+    @Value("${app.base-url:http://localhost:8080}")
     private String baseUrl;
 
     private final ProjectRepository projectRepository;
